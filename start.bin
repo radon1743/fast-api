@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Activate the virtual environment
+source .api_lin/bin/activate
+
+# Run the FastAPI app with Uvicorn
+uvicorn app.main:app --reload
